@@ -15,7 +15,7 @@ status-website:
   baseUrl: /my-status-page
   
   # ถ้าในอนาคตจะใช้ status.yourdomain.com ให้ใส่ที่ cname และใส่ # หน้า baseUrl แทน
-  # cname: status.kawinfulfillment.com
+  # cname: status.kawinbrothers.com
 
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Kawin Status Page
