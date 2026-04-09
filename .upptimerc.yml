@@ -1,36 +1,30 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+# ข้อมูลบัญชี GitHub ของคุณ
+owner: kawinprogrammer04
+repo: my-status-page
 
+# รายชื่อเว็บไซต์ที่คุณต้องการมอนิเตอร์ (ตรวจสอบจาก Plesk)
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
+  - name: Kawin Brothers
+    url: https://crm.kawinbrothers.com
+  - name: Kawin Fulfillment
+    url: https://ffm.kawinbrothers.com
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
+  # หากคุณยังไม่ได้ตั้งค่า Domain ตัวเอง ให้เอาเครื่องหมาย # หน้า baseUrl ออก
+  # และใส่ชื่อ repo ของคุณ เพื่อให้เข้าผ่าน https://kawinprogrammer04.github.io/my-status-page
+  baseUrl: /my-status-page
+  
+  # ถ้าในอนาคตจะใช้ status.yourdomain.com ให้ใส่ที่ cname และใส่ # หน้า baseUrl แทน
+  # cname: status.kawinfulfillment.com
+
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  name: Kawin Status Page
+  introTitle: "**Kawin Systems** Operational Status"
+  introMessage: หน้าแสดงสถานะการทำงานของระบบในเครือ Kawin Group ทั้งหมด ระบบนี้ทำงานแยกส่วนกับเซิร์ฟเวอร์หลักเพื่อให้คุณมั่นใจได้ว่าข้อมูลสถานะจะออนไลน์เสมอ
   navbar:
     - title: Status
       href: /
     - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+      href: https://github.com/kawinprogrammer04/my-status-page
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+# ตั้งค่าการแจ้งเตือนเพิ่มเติมได้ที่นี่
