@@ -4,19 +4,19 @@
     "url": "https://crm.kawinbrothers.com",
     "icon": "https://icons.duckduckgo.com/ip3/crm.kawinbrothers.com.ico",
     "slug": "kawin-brothers",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 766,
-    "timeDay": 699,
-    "timeWeek": 808,
-    "timeMonth": 766,
-    "timeYear": 766,
+    "status": "up",
+    "uptime": "99.53%",
+    "uptimeDay": "92.56%",
+    "uptimeWeek": "98.94%",
+    "uptimeMonth": "99.53%",
+    "uptimeYear": "99.53%",
+    "time": 765,
+    "timeDay": 723,
+    "timeWeek": 801,
+    "timeMonth": 765,
+    "timeYear": 765,
     "dailyMinutesDown": {
-      "2026-04-25": 0
+      "2026-04-25": 107
     }
   },
   {
