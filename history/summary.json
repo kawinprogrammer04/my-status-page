@@ -4,7 +4,7 @@
     "url": "https://crm.kawinbrothers.com",
     "icon": "https://icons.duckduckgo.com/ip3/crm.kawinbrothers.com.ico",
     "slug": "kawin-brothers",
-    "status": "up",
+    "status": "down",
     "uptime": "99.85%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
@@ -16,6 +16,7 @@
     "timeMonth": 775,
     "timeYear": 774,
     "dailyMinutesDown": {
+      "2026-05-30": 0,
       "2026-04-25": 107
     }
   },
