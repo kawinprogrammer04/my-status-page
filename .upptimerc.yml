@@ -2,12 +2,49 @@
 owner: kawinprogrammer04
 repo: my-status-page
 
-# รายชื่อเว็บไซต์ที่คุณต้องการมอนิเตอร์ (ตรวจสอบจาก Plesk)
+# รายชื่อเว็บไซต์ที่คุณต้องการมอนิเตอร์ (ตรวจสอบจาก Plesk เมื่อ 2026-08-11)
+# หมายเหตุ: ffm.kawinbrothers.com ไม่มีอยู่จริง (ไม่มี DNS record) โดเมนที่ถูกต้องคือ ffm.kawinfulfillment.com
+# ตัดทิ้ง: kwb-sv.online (ไม่มี DNS/ไม่ตอบสนอง HTTP) และ kawin-connector.kawinbrothers.com, drpramukthailand.com
+# (ตัวแรกถูกย้าย/เลิกใช้แล้วตามงาน migration ไป marketplace-connect-gateway, ตัวหลังเป็นลูกค้าคนละราย ไม่เกี่ยว Kawin)
 sites:
-  - name: Kawin Brothers
+  - name: Kawin Brothers (CRM)
     url: https://crm.kawinbrothers.com
+  - name: Kawin Brothers (Main Site)
+    url: https://kawinbrothers.com
   - name: Kawin Fulfillment
-    url: https://ffm.kawinbrothers.com
+    url: https://ffm.kawinfulfillment.com
+  - name: Kawin Fulfillment (Main Site)
+    url: https://kawinfulfillment.com
+  - name: HR System
+    url: https://hr.kawinbrothers.com
+  - name: Accounting
+    url: https://acc.kawinbrothers.com
+  - name: ChatAI
+    url: https://chatai.kawinbrothers.com
+  - name: JT OCR
+    url: https://jt-ocr.kawinbrothers.com
+  - name: Marketplace Connect Gateway
+    url: https://marketplace-connect.kawinbrothers.com
+  - name: NAS
+    url: https://nas.kawinbrothers.com
+  - name: Portal
+    url: https://portal.kawinbrothers.com
+  - name: Social Bot
+    url: https://socialbot.kawinbrothers.com
+  - name: Demo
+    url: https://demo.kawinbrothers.com
+  - name: Test
+    url: https://test.kawinbrothers.com
+  - name: Webmail (kawinbrothers.com)
+    url: https://mail.kawinbrothers.com
+  - name: Webmail (kawinfulfillment.com)
+    url: https://mail.kawinfulfillment.com
+  - name: Infinity Blu8
+    url: https://infinityblu8.com
+  - name: Million Wayss
+    url: https://millionwayss.com
+  - name: Tid Jai Thai Snack
+    url: https://tidjaithaisnack.com
 
 status-website:
   # หากคุณยังไม่ได้ตั้งค่า Domain ตัวเอง ให้เอาเครื่องหมาย # หน้า baseUrl ออก
